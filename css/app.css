@@ -1,0 +1,119 @@
+/**FONTS**/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    }
+
+h1 {
+    font-size: 2rem;
+    font-style: 900;
+    margin: 0.67em 0;
+    }
+
+/**CONTAINER**/
+
+.img{
+    height:auto;
+    width:100%;
+}
+
+
+.introduction {
+    height:100vh;
+    width: 100%;
+    background:url(../img/01_Titelbild.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.no{
+    height:100vh;
+    width:100%;
+    background:url(../img/OH_NO.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1
+}
+
+.line{
+    height:100vh;
+    width:100%;
+    background:url(../img/01_Linie.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: fixed;        
+}
+
+.padding{
+    height: 600px;
+}
+
+
+
+/**Button**/
+a {
+  padding-top: 80px;
+}
+a span {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: -12px;
+  border-left: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb 2s infinite;
+  animation: sdb 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+a span:nth-of-type(1) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+a span:nth-of-type(2) {
+  bottom: 30px;
+  -webkit-animation-delay: .15s;
+  animation-delay: .15s;
+}
+a span:nth-of-type(3) {
+  bottom: 50px;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+@-webkit-keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+

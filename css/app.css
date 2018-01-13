@@ -10,6 +10,12 @@ h1 {
     margin: 0.67em 0;
     }
 
+h2 {
+    font-size: 2rem;
+    font-weight:500;
+    margin: 0.67em 0;
+    }
+
 /**CONTAINER**/
 
 .img{
@@ -40,16 +46,6 @@ h1 {
     z-index: 1
 }
 
-.info{
-    height:100vh;
-    width:100%;
-    background:url(../img/intro_Zeichenfl%C3%A4che%201.svg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: fixed;        
-}
 
 .line{
     height:100vh;
@@ -83,6 +79,25 @@ h1 {
     position: relative;
 }
 
+.kachel_line {
+    width: 100%;
+    background:url(../img/kachel_line.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.walking {
+    width: 100%;
+    background:url(../img/walking.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
 
 
 /**Button**/
@@ -144,4 +159,23 @@ a span:nth-of-type(3) {
 
 
 
+
+/* ------- Default Stil
+section img{
+    opacity:0;-webkit-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+#section-2 img.first{
+    transform: translate(-700px,0);
+}
+
+/* ------- Falls onScreen neuer Zustand Stil, hier kann irgendetwas verändert werden
+section.isonScreen img{
+    opacity:1;
+}
+
+#section-2.isonScreen img.first{
+    transform: translate(0px,0);
+}
 

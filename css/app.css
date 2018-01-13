@@ -66,6 +66,23 @@ h1 {
     height: 600px;
 }
 
+.background_yellow {
+    height:100vh;
+    width: 100%;
+    background-color: #ffff00;
+    }
+
+.outside {
+    height:100vh;
+    width: 100%;
+    background:url(../img/outside_1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
 
 
 /**Button**/

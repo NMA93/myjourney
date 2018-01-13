@@ -99,6 +99,36 @@ h2 {
     position: relative;
 }
 
+.boden {
+    width: 100%;
+    background:url(../img/boden.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.kurve {
+    width: 100%;
+    background:url(../img/kurve_2.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.jump {
+    width: 100%;
+    background:url(../img/jump.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
 
 /**Button**/
 a {
@@ -160,22 +190,31 @@ a span:nth-of-type(3) {
 
 
 
-/* ------- Default Stil
-section img{
-    opacity:0;-webkit-transition: all 1s linear;
-    transition: all 1s linear;
+/* ------- Default Stil */
+
+.transition-speed {
+   -webkit-transition: 1200ms cubic-bezier(1, 0, 0, 1) 0ms; /* For Safari 3.1 to 6.0, Chrome 4.0 to 26.0 */
+   -moz-transition: 1200ms cubic-bezier(1, 0, 0, 1) 0ms; /* For Mozilla 4.0 to 16.0 */
+   -o-transition: 1200ms cubic-bezier(1, 0, 0, 1) 0ms; /* For Opera 10.5 to 12.1 */
+   transition: 1200ms cubic-bezier(1, 0, 0, 1) 0ms;
 }
 
-#section-2 img.first{
-    transform: translate(-700px,0);
+.trans-left {
+    transform: translate(-100%,0);
 }
 
-/* ------- Falls onScreen neuer Zustand Stil, hier kann irgendetwas verändert werden
-section.isonScreen img{
-    opacity:1;
+/* ------- Falls onScreen neuer Zustand Stil, hier kann irgendetwas verändert werden */
+
+.trans-left.in {
+    transform: translate(0,0) !important;
 }
 
-#section-2.isonScreen img.first{
-    transform: translate(0px,0);
+.trans-right {
+    transform: translate(100%,0);
 }
 
+/* ------- Falls onScreen neuer Zustand Stil, hier kann irgendetwas verändert werden */
+
+.trans-right.in {
+    transform: translate(0,0) !important;
+}

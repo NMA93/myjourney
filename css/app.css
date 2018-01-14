@@ -116,17 +116,24 @@ h2 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: relative;
+    position: absolute;
 }
 
 .jump {
     width: 100%;
-    background:url(../img/jump.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: relative;
+    position: absolute;
+}
+
+.zindex1 {
+    z-index: 1
+}
+
+.zindex2 {
+    z-index: 2
 }
 
 
@@ -199,6 +206,13 @@ a span:nth-of-type(3) {
    transition: 1200ms cubic-bezier(1, 0, 0, 1) 0ms;
 }
 
+.transition-speed1 {
+   -webkit-transition: 2500ms cubic-bezier(1, 0, 0, 1) 0ms; /* For Safari 3.1 to 6.0, Chrome 4.0 to 26.0 */
+   -moz-transition: 2500ms cubic-bezier(1, 0, 0, 1) 0ms; /* For Mozilla 4.0 to 16.0 */
+   -o-transition: 2500ms cubic-bezier(1, 0, 0, 1) 0ms; /* For Opera 10.5 to 12.1 */
+   transition: 2500ms cubic-bezier(1, 0, 0, 1) 0ms;
+}
+
 .trans-left {
     transform: translate(-100%,0);
 }
@@ -217,4 +231,32 @@ a span:nth-of-type(3) {
 
 .trans-right.in {
     transform: translate(0,0) !important;
+}
+
+
+/** Button**/
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #666666);
+  background-image: -moz-linear-gradient(top, #000000, #666666);
+  background-image: -ms-linear-gradient(top, #000000, #666666);
+  background-image: -o-linear-gradient(top, #000000, #666666);
+  background-image: linear-gradient(to bottom, #000000, #666666);
+  text-decoration: none;
 }

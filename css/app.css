@@ -244,6 +244,7 @@ a span:nth-of-type(3) {
   background-image: -o-linear-gradient(top, #3498db, #2980b9);
   background-image: linear-gradient(to bottom, #3498db, #2980b9);
   font-family: Arial;
+    text-align: center;
   color: #ffffff;
   font-size: 30px;
   background: #000000;

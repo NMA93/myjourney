@@ -20,22 +20,6 @@
         });
     </script>
       
-       <script>
-    $(document).ready(function(){
-    $("a").on('click', function(event) {
-    if (this.hash !== "") 
-    {
-    event.preventDefault();
-    var hash = this.hash;
-    $('html, body').animate
-    ({scrollTop: $(hash).offset().top
-      }, 800, function(){
-           window.location.hash = hash;
-    });
-    }
-    });
-    });
-      </script>
       
     </head>
     
@@ -123,12 +107,25 @@
         </div>
         </section>
       
-      <section id="weiter">
-          
-         <img src="img/blaetter.jpg" width="100%"> 
-        
-      </section>
+    <section id="weiter" class="panel">
+      <div class="hund"> 
+      </div>
+    </section>
       
+        <section class="panel">
+        <div class="hund1"> 
+        <div class="grid-x small-offset-1 padding">
+            <h1>hundelinie</h1>
+        </div>
+        </div>
+        </section>
+
+    <section class="panel">
+    <div>
+        <img src="img/zug_2.jpg" width="100%">  
+    </div>
+    </section>
+       
 
 
     <script src="js/vendor/jquery.js"></script>

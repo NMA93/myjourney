@@ -74,6 +74,13 @@ h3 {
     background-color: #ffff00;
     }
 
+.background_white {
+    height:100vh;
+    width: 100%;
+    background-color: #ffffff;
+    }
+
+
 .outside {
     height:100vh;
     width: 100%;
@@ -156,13 +163,44 @@ h3 {
 }
 
 .hund1 {
+    height: 100vh
     width: 100%;
     background:url(../img/hund_frei.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: absolute;
+    position: relative;
+}
+
+.uster {
+    width: 100%;
+    background:url(../img/uster_bhf_2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.leben {
+    width: 100%;
+    background:url(../img/leben.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.jump2 {
+    width: 100%;
+    background:url(../img/jump_2.gif);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
 }
 
 

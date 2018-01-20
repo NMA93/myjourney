@@ -8,18 +8,21 @@ h1 {
     font-size: 2rem;
     font-style: 900;
     margin: 0.67em 0;
+    line-height: 2.5rem;
     }
 
 h2 {
     font-size: 2rem;
     font-weight:500;
     margin: 0.67em 0;
-    }
+    line-height: 2.5rem;
+}
 
 h3 {
     font-size: 4rem;
     font-weight:900;
-    margin: 0;
+    margin: 0.67em 0;
+    line-height: 2.5rem;
     }
 
 /**CONTAINER**/
@@ -196,6 +199,28 @@ h3 {
 .jump2 {
     width: 100%;
     background:url(../img/jump_2.gif);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.yjump {
+    height:100vh;
+    width: 100%;
+    background:url(../img/yjump2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.sjump {
+    height:100vh;
+    width: 100%;
+    background:url(../img/sprungsequenz.gif);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

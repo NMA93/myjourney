@@ -39,6 +39,13 @@ h5 {
     line-height: 1rem;
     }
 
+h6 {
+    font-size: 0.4rem;
+    font-weight:500;
+    margin: 0.67em 0;
+    line-height: 0.75rem;
+    }
+
 
 /**CONTAINER**/
 

@@ -239,6 +239,17 @@ h6 {
     position: relative;
 }
 
+.sitzen {
+    height:100vh;
+    width: 100%;
+    background:url(../img/zuhause.gif);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
 .sjump {
     height:100vh;
     width: 100%;

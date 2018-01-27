@@ -272,7 +272,7 @@ img{
 }
 
 
-/**Button
+/**Button**/
 a {
   padding-top: 80px;
 }
@@ -329,7 +329,6 @@ a span:nth-of-type(3) {
   }
 }
 
-**/
 
 
 
@@ -461,8 +460,4 @@ border-radius: 150px;
 
 .button3:hover {
     background-image: url(../img/neustart_font.png) !important;
-}
-
-a { 
-    padding-right: 20px;
 }

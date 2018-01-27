@@ -7,7 +7,7 @@ body {
 h1 {
     font-size: 2rem;
     font-style: 900;
-    margin: 0.67em 0;
+    margin: 2em 0em 1em 0em;
     line-height: 2.5rem;
     }
 
@@ -49,7 +49,7 @@ h6 {
 
 /**CONTAINER**/
 
-.img{
+img{
     height:auto;
     width:100%;
 }
@@ -272,7 +272,7 @@ h6 {
 }
 
 
-/**Button**/
+/**Button
 a {
   padding-top: 80px;
 }
@@ -329,6 +329,7 @@ a span:nth-of-type(3) {
   }
 }
 
+**/
 
 
 
@@ -369,7 +370,7 @@ a span:nth-of-type(3) {
 }
 
 
-/** Button**/
+/** Button
 
 .btn {
   background: #3498db;
@@ -395,4 +396,73 @@ a span:nth-of-type(3) {
   background-image: -o-linear-gradient(top, #000000, #666666);
   background-image: linear-gradient(to bottom, #000000, #666666);
   text-decoration: none;
+}
+**/
+
+.button1 {
+font-size: 18px;
+border: 5px solid #000000;
+border-radius: 150px;
+    width: 200px;
+    height: 200px;
+}
+
+.button2 {
+font-size: 18px;
+border: 5px solid #000000;
+border-radius: 150px;
+    width: 200px;
+    height: 200px;
+}
+
+.button3 {
+font-size: 18px;
+border: 5px solid #000000;
+border-radius: 150px;
+    width: 200px;
+    height: 200px;
+}
+
+
+#up {
+    width: 180px;
+    height: 180px;
+    background-image:url(../img/hand_up.png) ;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#down {
+    width: 180px;
+    height: 180px;
+    background-image:url(../img/hand_down.png) ;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#new {
+    width: 180px;
+    height: 180px;
+    background-image:url(../img/neustart.png) ;
+    background-color: #ffff00; 
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.button1:hover {
+  background: #000000;  
+    background-image: url(../img/hand_up_nei.png) !important;
+}
+
+.button2:hover {
+  background: #000000;  
+    background-image: url(../img/hand_down_ja.png) !important;
+}
+
+.button3:hover {
+    background-image: url(../img/neustart_font.png) !important;
+}
+
+a { 
+    padding-right: 20px;
 }
